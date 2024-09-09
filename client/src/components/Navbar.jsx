@@ -6,7 +6,7 @@ const Navbar = () => {
   const { toggleDisplay } = useContext(ModelContext);
   return (
     <div className="flex items-center justify-center w-full h-32">
-      <div className="flex items-center justify-around h-20 w-full md:w-[80%] lg:w-[70%] xl:w-[60%] rounded-full shadow-xl shadow-zinc-100">
+      <div className="flex items-center justify-around h-20 w-[60%] rounded-full shadow-xl shadow-zinc-100">
         <div>
           <img src="/cmwlogo.svg" className="h-12" alt="" />
         </div>

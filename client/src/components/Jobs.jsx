@@ -7,7 +7,7 @@ const Jobs = ({ jobs }) => {
   return (
     <>
       <div className="flex items-center justify-center bg-slate-50 h-full py-6 w-full">
-        <div className="grid grid-cols-4 gap-4 p-4 w-[98%] lg:w-[95%]">
+        <div className="grid grid-cols-4 gap-4 p-4 w-[95%]">
           {jobs
             ?.sort(
               (a, b) => formatTime(b.jobCreatedAt) - formatTime(a.jobCreatedAt)
