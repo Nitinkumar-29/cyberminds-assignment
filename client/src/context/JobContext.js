@@ -6,7 +6,7 @@ const JobContext = createContext();
 
 export const JobProvider = ({ children }) => {
   const { toggleDisplay } = useContext(ModelContext);
-  const host = "http://localhost:8000";
+  const host = "https://cyberminds-assignment-backend.vercel.app";
   const navigate = useNavigate();
   const [allJobs, setAllJobs] = useState(null);
   const [errorMessage, setErrorMessage] = useState("");

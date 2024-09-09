@@ -14,7 +14,7 @@ export const AuthProvider = ({ children }) => {
   });
   const navigate = useNavigate();
   const [errorMessage, setErrorMessage] = useState("");
-  const host = "http://localhost:8000";
+  const host = "https://cyberminds-assignment-backend.vercel.app";
 
   //   function to create account
   const createAccount = async () => {

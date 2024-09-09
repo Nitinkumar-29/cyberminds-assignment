@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true })); // Fix for express.urlencoded
 
 app.use(
   cors({
-    origin: "*",
+    origin: "https://cyberminds-assignment.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE"],
   })
 );
