@@ -6,7 +6,7 @@ const Filteration = ({ filters, onInputChange, onSalaryChange }) => {
   return (
     <>
       <div className="flex w-full mt-6 justify-center shadow-md shadow-zinc-100 p-4">
-        <div className="flex w-[90%] justify-between">
+        <div className="flex w-full xl:w-[90%] justify-between">
           <div className="flex items-center justify-center space-x-4 border-r-2 px-4 border-zinc-200 w-full">
             <CiSearch size={20} />
             <input
